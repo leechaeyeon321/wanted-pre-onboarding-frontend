@@ -9,7 +9,7 @@ export default function Signin() {
     <div>
       <p>로그인 페이지</p>
       <Form>
-        
+        <input type="text" />
       </Form>
     
     </div>
