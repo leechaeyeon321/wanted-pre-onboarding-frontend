@@ -8,7 +8,10 @@ export default function Signup() {
     <div>
         <p>회원가입 페이지</p>
         <Form>
-            
+            <input type="text" textarea="ID입력"/>
+            <input type="password" textarea="PW입력"/>
+            <input type="text" />
+            <input type="text" />
         </Form>
     
     </div>
