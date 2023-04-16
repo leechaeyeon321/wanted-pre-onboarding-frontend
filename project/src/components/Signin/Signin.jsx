@@ -9,7 +9,9 @@ export default function Signin() {
     <div>
       <p>로그인 페이지</p>
       <Form>
-        <input type="text" />
+        <input type="text" textarea="ID입력"/>
+        <input type="password" textarea="PW입력"/>
+        <button>로그인</button>
       </Form>
     
     </div>
