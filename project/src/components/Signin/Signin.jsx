@@ -13,7 +13,6 @@ export default function Signin() {
         <input type="password" textarea="PW입력"/>
         <button>로그인</button>
       </Form>
-    
     </div>
   )
 }
