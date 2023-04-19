@@ -7,6 +7,11 @@ export default function Signup() {
   const [id, setId] = useState('');
   const [idMessage, setIdMessage] = useState('');
   const [isId, setIsId] = useState(false);
+  
+  const [pw, setPw] = useState('');
+  const [pwMessage, setPwMessage] = useState('');
+  const [isPw, setIsPw] = useState('');
+
   const onIdHandler = (e) => {
     setId(e.currentTarget.value);
     if (e.target.value < 2 || e.target.value.length > 8) {
@@ -17,6 +22,7 @@ export default function Signup() {
       setIsId(true);
     }
   };
+
   return (
     <div>
         <p>회원가입 페이지</p>
