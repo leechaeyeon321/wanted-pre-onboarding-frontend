@@ -22,13 +22,16 @@ export default function Signup() {
       setIsId(true);
     }
   };
+  const onPwHandler = (e) => {
+    setPw(e.currentTarget.value);
+  }
 
   return (
     <div>
         <p>회원가입 페이지</p>
         <Form>
             <input type="text" textarea="ID입력" onChange={onIdHandler}/>
-            <input type="password" textarea="PW입력"/>
+            <input type="password" textarea="PW입력"onChange={onPwHandler}/>
             <input type="text" />
             <input type="text" />
         </Form>
