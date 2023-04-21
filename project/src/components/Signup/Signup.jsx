@@ -24,6 +24,13 @@ export default function Signup() {
   };
   const onPwHandler = (e) => {
     setPw(e.currentTarget.value);
+    if (e.target.value < 2 || e.target.value.length > 8) {
+      setPwMessage('2글자 이상 8글자 미만으로 입력해주세요');
+      setIsPw(false);
+    } else {
+      setPwMessage('올바른 비밀번호 형식입니다.');
+      setIsPw(true);
+    }
   }
 
   return (
