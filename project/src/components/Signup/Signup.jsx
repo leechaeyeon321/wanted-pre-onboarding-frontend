@@ -1,7 +1,9 @@
 import React, { useState } from 'react'
 import styled from 'styled-components';
 const Form = styled.form`
-  
+  width: 500px;
+  height: auto;
+
 `
 export default function Signup() {
   const [id, setId] = useState('');
